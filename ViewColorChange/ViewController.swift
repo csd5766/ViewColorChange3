@@ -9,12 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var Blue: UIView!
+    @IBOutlet weak var Red: UIView!
+    @IBOutlet weak var Sky: UIView!
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func b1(_ sender: Any) {
+        Blue.backgroundColor = UIColor.white
+    }
+    
+    @IBAction func b2(_ sender: Any) {
+        Red.backgroundColor = UIColor.white
+    }
+    
+    @IBAction func b3(_ sender: Any) {
+        Sky.backgroundColor = UIColor.white
+    }
+    
 }
 
