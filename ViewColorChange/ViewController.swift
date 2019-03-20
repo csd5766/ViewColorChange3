@@ -19,15 +19,18 @@ class ViewController: UIViewController {
     }
 
     @IBAction func b1(_ sender: Any) {
-        Blue.backgroundColor = UIColor.white
+        //Blue.backgroundColor = UIColor.white
+        Blue.isHidden = true
     }
     
     @IBAction func b2(_ sender: Any) {
-        Red.backgroundColor = UIColor.white
+        //Red.backgroundColor = UIColor.white
+        Red.isHidden = true
     }
     
     @IBAction func b3(_ sender: Any) {
-        Sky.backgroundColor = UIColor.white
+        //Sky.backgroundColor = UIColor.white
+        Sky.isHidden = true
     }
     
 }
